@@ -1,0 +1,34 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* Review section styles */
+
+.lc_review{
+    float: right;
+    height: 32px
+}
+.lc_thumb{
+    float: left;
+    margin: 0 10px;
+    height: 32px;
+}
+.lc_thumb_btn{
+    padding: 8px 16px;
+    border-radius: 100px;
+    cursor: pointer
+}
+.lc_thumb_up_btn{
+    background: #4CAF50 url("../imgs/thumbs.png") no-repeat;
+}
+.lc_thumb_down_btn{
+    background: #F44336 url("../imgs/thumbs.png") no-repeat -32px 0
+}
+.lc_count{}
+
+#load-new-comments{
+    text-align: center;
+    cursor: pointer;
+    display: none
+}
