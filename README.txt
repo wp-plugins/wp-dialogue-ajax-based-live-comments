@@ -10,20 +10,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-WP Dialogue is a WordPress plugin which converts the WordPress native commenting system into a live discussion system.  It uses all the native features of WordPress so that there is minimal chances of breaking with updates. The plugin retains the ease of usability of the WordPress's commenting and provides multiple options to make it compatible with your current theme's look. 
+WP Dialog is an Ajax based WordPress Live Commenting plugin which changes the WordPress native comments into a live talk framework.
+
+It utilizes all the native functions of WordPress so that there are negligible chances of breaking with core updates. The plugin holds the simplicity of convenience of the WordPress's commenting and gives numerous choices to make it perfect with your current theme.
 
 = Features: =
 
+* Live Comment Sync
 * Uses WordPress's Native Commenting to provide the functionality
 * Fully Customizable to match your theme's design
 * Simple layout and easy to use for both administrator and users
-* Multiple settings available to enable & disable features of the plugin
+* Multiple settings to enable & disable features of the plugin
 * Converts replies into mentions
 * Customizable email template for mentions
-* Live comment feeds
-* Instant alert on new comments posted by other users
-* Allow users to comment without forcing them to create an account
+* Enable / Disable auto live comment updates
 * Options to make compatible with Bootstrap 3
+* Built using powerful features of Backbone JS
+* As light as feather (~32kb when zipped)
 
 = Live Preview =
 
@@ -37,7 +40,6 @@ WP Dialogue is a WordPress plugin which converts the WordPress native commenting
 
 This section describes how to install the plugin and get it working.
 
-e.g.
 
 1. Unzip `wp-dialogue.zip` and upload `wp-dialogue` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
